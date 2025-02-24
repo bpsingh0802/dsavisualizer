@@ -1,0 +1,71 @@
+@import "tailwindcss";
+@keyframes rainbow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .animate-rainbow {
+    background: linear-gradient(90deg, #ff0000, #ff00ff, #00ffff, #00ff00, #ffff00, #ff0000);
+    background-size: 200% 200%;
+    animation: rainbow 5s ease infinite;
+  }
+  
+  @keyframes glitch {
+    0% { transform: translate(0); }
+    20% { transform: translate(-2px, 2px); }
+    40% { transform: translate(-2px, -2px); }
+    60% { transform: translate(2px, 2px); }
+    80% { transform: translate(2px, -2px); }
+    100% { transform: translate(0); }
+  }
+  
+  .animate-glitch {
+    animation: glitch 0.3s infinite;
+  }
+  
+  @keyframes confetti {
+    0% { transform: translateY(-100vh) rotate(0deg); opacity: 1; }
+    100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+  }
+  
+  .animate-confetti {
+    animation: confetti 2s linear infinite;
+  }
+  
+  @keyframes orbit {
+    0% { transform: translateX(0) translateY(0); }
+    25% { transform: translateX(2px) translateY(-2px); }
+    50% { transform: translateX(0) translateY(0); }
+    75% { transform: translateX(-2px) translateY(2px); }
+    100% { transform: translateX(0) translateY(0); }
+  }
+  
+  .animate-orbit {
+    animation: orbit 1s infinite ease-in-out;
+  }
+  
+  @keyframes twinkle {
+    0% { opacity: 0.2; }
+    50% { opacity: 1; }
+    100% { opacity: 0.2; }
+  }
+  
+  .animate-twinkle {
+    animation: twinkle 2s infinite;
+  }
+  
+  @keyframes supernova {
+    0% { transform: scale(0); opacity: 1; }
+    50% { transform: scale(2); opacity: 0.8; }
+    100% { transform: scale(0); opacity: 0; }
+  }
+  
+  .animate-supernova {
+    animation: supernova 1s ease-out forwards;
+  }
+  
+  .bg-starry {
+    background: radial-gradient(circle, #1a1a40 0%, #000000 100%);
+    position: relative;
+  }
