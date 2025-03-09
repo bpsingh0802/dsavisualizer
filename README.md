@@ -15,16 +15,18 @@ This feature provides interactive visualizations of various sorting algorithms, 
 
 ### Cosmic Mode
 Cosmic Mode enhances the visualization experience by adding dynamic background effects, making algorithm animations visually appealing and engaging. It provides an immersive learning experience while keeping track of each algorithm's execution.
-<img width="1360" alt="Screenshot 2025-03-09 at 3 36 51 PM" src="https://github.com/user-attachments/assets/fd33c2d0-37ab-4355-bbb0-42d3e720c3ad" />
+<img width="1458" alt="Screenshot 2025-03-09 at 3 40 14 PM" src="https://github.com/user-attachments/assets/d79397f6-e57a-4b91-b8b9-38a3ac4d4c2b" />
+
 
 ### Race Mode
 Race Mode allows users to compare multiple sorting algorithms simultaneously. By running different algorithms side by side on the same dataset, users can observe performance differences in real time and better understand the efficiency of each approach.
-<img width="1458" alt="Screenshot 2025-03-09 at 3 40 14 PM" src="https://github.com/user-attachments/assets/d79397f6-e57a-4b91-b8b9-38a3ac4d4c2b" />
 
-###Winnner Announcement
-<img width="1222" alt="Screenshot 2025-03-09 at 3 41 50 PM" src="https://github.com/user-attachments/assets/68590180-5b34-4cff-8ec8-7922f753a3b7" />
+<img width="1222" alt="Screenshot 2025-03-09 at 3 41 50 PM" src="https://github.com/user-attachments/assets/7e9f8a9f-e5ea-48df-af6d-7cdd4d070d62" />
 
- 
+### Winnner Announcement
+
+ <img width="1190" alt="Screenshot 2025-03-09 at 3 42 53 PM" src="https://github.com/user-attachments/assets/1bd8e1f1-e664-44a9-b795-f556f542b0f0" />
+
 
 ### Custom Input, Array, and Visualization Speed
 Users can provide custom input arrays, adjust the size of the dataset, and control the speed of the visualization. This enables experimentation with different cases, such as sorted, reversed, or random inputs, to analyze how each algorithm performs under various conditions.
@@ -52,7 +54,7 @@ The application features a sleek and intuitive interface designed using React an
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/dsa-visualizer.git
+   [git clone https://github.com/bpsingh0802/dsa-visualizer.git]
    ```
 2. Navigate to the project directory:
    ```sh
